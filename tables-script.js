@@ -12,7 +12,7 @@ const sovetniki = document.getElementById("sovetniki");
 const prioritety_razvitia = document.getElementById("prioritety_razvitia");
 const units = document.getElementById("units");
 const weather = document.getElementById("weather");
-const Relig_dogmaty = document.getElementById("Relig_dogmaty");
+const relig_dogmaty = document.getElementById("relig_dogmaty");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -76,8 +76,8 @@ weather.addEventListener("click",() => {
     img.style.height = "75%"
 });
 
-Relig_dogmaty.addEventListener("click",() => {
-    img.src="tables/Relig_dogmaty.png"
+relig_dogmaty.addEventListener("click",() => {
+    img.src="tables/relig_dogmaty.png"
     img.style.width = "55%"
     img.style.height = "55%"
 });
