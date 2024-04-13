@@ -14,6 +14,7 @@ const units = document.getElementById("units");
 const weather = document.getElementById("weather");
 const relig_dogmaty = document.getElementById("relig_dogmaty");
 const resursy = document.getElementById("resursy");
+const ivents = document.getElementById("ivents");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -23,10 +24,16 @@ buildings.addEventListener("click",() => {
     img.style.height = "100%"
 });
 
+ivents.addEventListener("click", () => {
+    img.src = "tables/ivents.jpg"
+    img.style.width = "40%"
+    img.style.height = "40%"
+});
+
 resursy.addEventListener("click",() => {
     img.src ="tables/resursy.jpg"
-    img.style.width = "70%"
-    img.style.height = "70%"
+    img.style.width = "25%"
+    img.style.height = "25%"
 });
 
 fpvp.addEventListener("click",() => {
