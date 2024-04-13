@@ -13,6 +13,7 @@ const prioritety_razvitia = document.getElementById("prioritety_razvitia");
 const units = document.getElementById("units");
 const weather = document.getElementById("weather");
 const relig_dogmaty = document.getElementById("relig_dogmaty");
+const resursy = document.getElementById("resursy");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -20,6 +21,12 @@ buildings.addEventListener("click",() => {
     img.src ="tables/Postroyki.png"
     img.style.width = "100%"
     img.style.height = "100%"
+});
+
+resursy.addEventListener("click",() => {
+    img.src ="tables/resursy.jpg"
+    img.style.width = "70%"
+    img.style.height = "70%"
 });
 
 fpvp.addEventListener("click",() => {
