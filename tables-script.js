@@ -75,3 +75,9 @@ relig_dogmaty.addEventListener("click",() => {
     img.style.width = "55%"
     img.style.height = "55%"
 });
+
+units.addEventListener("click",() => {
+    img.src = "tables/units.png"
+    img.style.width = "55%"
+    img.style.height = "55%"
+});
