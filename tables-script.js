@@ -15,6 +15,7 @@ const weather = document.getElementById("weather");
 const relig_dogmaty = document.getElementById("relig_dogmaty");
 const resursy = document.getElementById("resursy");
 const ivents = document.getElementById("ivents");
+const perelom = document.getElementById("perelom");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -22,6 +23,12 @@ buildings.addEventListener("click",() => {
     img.src ="tables/Postroyki.png"
     img.style.width = "100%"
     img.style.height = "100%"
+});
+
+perelom.addEventListener("click", () => {
+    img.src = "tables/perelom.jpg"
+    img.style.width = "50%"
+    img.style.height = "50%"
 });
 
 ivents.addEventListener("click", () => {
