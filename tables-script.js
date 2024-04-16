@@ -16,8 +16,15 @@ const relig_dogmaty = document.getElementById("relig_dogmaty");
 const resursy = document.getElementById("resursy");
 const ivents = document.getElementById("ivents");
 const perelom = document.getElementById("perelom");
+const traditsii = document.getElementById("traditsii");
 // const mercenaries = document.getElementById("mercenaries");
 
+
+traditsii.addEventListener("click",() => {
+    img.src ="tables/traditsii.png"
+    img.style.width = "100%"
+    img.style.height = "100%"
+});
 
 buildings.addEventListener("click",() => {
     img.src ="tables/Postroyki.png"
