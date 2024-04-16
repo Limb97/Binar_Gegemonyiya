@@ -22,8 +22,8 @@ const traditsii = document.getElementById("traditsii");
 
 traditsii.addEventListener("click",() => {
     img.src ="tables/traditsii.png"
-    img.style.width = "100%"
-    img.style.height = "100%"
+    img.style.width = "40%"
+    img.style.height = "40%"
 });
 
 buildings.addEventListener("click",() => {
