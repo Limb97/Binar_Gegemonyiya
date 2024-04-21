@@ -17,8 +17,15 @@ const resursy = document.getElementById("resursy");
 const ivents = document.getElementById("ivents");
 const perelom = document.getElementById("perelom");
 const traditsii = document.getElementById("traditsii");
+const innovatsii = document.getElementById("innovatsii");
 // const mercenaries = document.getElementById("mercenaries");
 
+
+innovatsii.addEventListener("click",() => {
+    img.src ="tables/innovatsii.png"
+    img.style.width = "40%"
+    img.style.height = "40%"
+});
 
 traditsii.addEventListener("click",() => {
     img.src ="tables/traditsii.png"
