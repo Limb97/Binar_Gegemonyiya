@@ -23,8 +23,8 @@ const innovatsii = document.getElementById("innovatsii");
 
 innovatsii.addEventListener("click",() => {
     img.src ="tables/innovatsii.png"
-    img.style.width = "40%"
-    img.style.height = "40%"
+    img.style.width = "65%"
+    img.style.height = "65%"
 });
 
 traditsii.addEventListener("click",() => {
