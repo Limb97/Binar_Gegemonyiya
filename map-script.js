@@ -7,6 +7,7 @@ const political = document.getElementById("political");
 const resources = document.getElementById("resources");
 const ethnic = document.getElementById("ethnic");
 const climate = document.getElementById("climate");
+const stran = document.getElementById("stran");
 
 img.addEventListener("click",() => {
     if (imgSize == 1) {
@@ -25,6 +26,10 @@ img.addEventListener("click",() => {
 
 igroki.addEventListener("click",() => {
     img.src ="maps/players.jpg"
+})
+
+stran.addEventListener("click",() => {
+    img.src ="maps/stran.png"
 })
 
 polit.addEventListener("click",() => {
