@@ -61,8 +61,8 @@ ivents.addEventListener("click", () => {
 
 resursy.addEventListener("click",() => {
     img.src ="tables/resursy.jpg"
-    img.style.width = "55%"
-    img.style.height = "55%"
+    img.style.width = "70%"
+    img.style.height = "70%"
 });
 
 fpvp.addEventListener("click",() => {
