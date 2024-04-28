@@ -30,8 +30,8 @@ innovatsii.addEventListener("click",() => {
 
 zakon.addEventListener("click",() => {
     img.src ="tables/zakon.png"
-    img.style.width = "85%"
-    img.style.height = "85%"
+    img.style.width = "50%"
+    img.style.height = "50%"
 });
 
 
