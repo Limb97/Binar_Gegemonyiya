@@ -24,8 +24,8 @@ const zakon = document.getElementById("zakon");
 
 innovatsii.addEventListener("click",() => {
     img.src ="tables/innovatsii.png"
-    img.style.width = "85%"
-    img.style.height = "85%"
+    img.style.width = "100%"
+    img.style.height = "100%"
 });
 
 zakon.addEventListener("click",() => {
