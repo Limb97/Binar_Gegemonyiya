@@ -18,6 +18,7 @@ const ivents = document.getElementById("ivents");
 const perelom = document.getElementById("perelom");
 const traditsii = document.getElementById("traditsii");
 const innovatsii = document.getElementById("innovatsii");
+const zakon = document.getElementById("zakon");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -26,6 +27,13 @@ innovatsii.addEventListener("click",() => {
     img.style.width = "85%"
     img.style.height = "85%"
 });
+
+zakon.addEventListener("click",() => {
+    img.src ="tables/zakon.png"
+    img.style.width = "85%"
+    img.style.height = "85%"
+});
+
 
 traditsii.addEventListener("click",() => {
     img.src ="tables/traditsii.png"
