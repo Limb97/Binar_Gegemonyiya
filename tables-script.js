@@ -19,11 +19,18 @@ const perelom = document.getElementById("perelom");
 const traditsii = document.getElementById("traditsii");
 const innovatsii = document.getElementById("innovatsii");
 const zakon = document.getElementById("zakon");
+const limit = document.getElementById("limit");
 // const mercenaries = document.getElementById("mercenaries");
 
 
 innovatsii.addEventListener("click",() => {
     img.src ="tables/innovatsii.png"
+    img.style.width = "100%"
+    img.style.height = "100%"
+});
+
+limit.addEventListener("click",() => {
+    img.src ="tables/limit.jpg"
     img.style.width = "100%"
     img.style.height = "100%"
 });
