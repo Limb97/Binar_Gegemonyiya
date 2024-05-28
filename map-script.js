@@ -8,6 +8,7 @@ const resources = document.getElementById("resources");
 const ethnic = document.getElementById("ethnic");
 const climate = document.getElementById("climate");
 const stran = document.getElementById("stran");
+const relig = document.getElementById("relig");
 
 img.addEventListener("click",() => {
     if (imgSize == 1) {
@@ -23,6 +24,9 @@ img.addEventListener("click",() => {
     
 });
 
+relig.addEventListener("click",() => {
+    img.src ="maps/relig.png"
+})
 
 igroki.addEventListener("click",() => {
     img.src ="maps/players.jpg"
