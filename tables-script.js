@@ -20,6 +20,7 @@ const traditsii = document.getElementById("traditsii");
 const innovatsii = document.getElementById("innovatsii");
 const zakon = document.getElementById("zakon");
 const limit = document.getElementById("limit");
+const skrit_perki = document.getElementById("skrit_perki");
 // const mercenaries = document.getElementById("mercenaries");
 
 
@@ -27,6 +28,12 @@ innovatsii.addEventListener("click",() => {
     img.src ="tables/innovatsii.png"
     img.style.width = "100%"
     img.style.height = "100%"
+});
+
+skrit_perki.addEventListener("click",() => {
+    img.src ="tables/skrit_perki.png"
+    img.style.width = "70%"
+    img.style.height = "70%"
 });
 
 limit.addEventListener("click",() => {
