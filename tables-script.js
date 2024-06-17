@@ -32,8 +32,8 @@ innovatsii.addEventListener("click",() => {
 
 skrit_perki.addEventListener("click",() => {
     img.src ="tables/skrit_perki.png"
-    img.style.width = "70%"
-    img.style.height = "70%"
+    img.style.width = "40%"
+    img.style.height = "40%"
 });
 
 limit.addEventListener("click",() => {
