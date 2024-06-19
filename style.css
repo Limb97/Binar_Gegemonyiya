@@ -59,10 +59,10 @@ a {
 
 .map img{
     width: 100%;
-    /* display: block;
+    display: block;
     margin-left: auto;
-    margin-right: auto; */
-    /* margin: 0 auto; */
+    margin-right: auto;
+    margin: 0 auto;
 }
 
 .btn {
