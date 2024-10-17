@@ -8,7 +8,6 @@ const resources = document.getElementById("resources");
 const ethnic = document.getElementById("ethnic");
 const climate = document.getElementById("climate");
 const stran = document.getElementById("stran");
-const relig = document.getElementById("relig");
 
 img.addEventListener("click",() => {
     if (imgSize == 1) {
