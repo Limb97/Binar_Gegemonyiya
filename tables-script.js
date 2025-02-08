@@ -51,7 +51,7 @@ skrit_perki.addEventListener("click",() => {
 });
 
 limit.addEventListener("click",() => {
-    img.src ="tables/limit.jpg"
+    img.src ="tables/limit.png"
     img.style.width = "100%"
     img.style.height = "100%"
 });
@@ -142,7 +142,7 @@ weather.addEventListener("click",() => {
 });
 
 relig_dogmaty.addEventListener("click",() => {
-    img.src = "tables/relig_dogmaty.png"
+    img.src = "tables/Dogmaty.png"
     img.style.width = "55%"
     img.style.height = "55%"
 });
