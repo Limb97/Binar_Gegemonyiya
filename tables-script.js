@@ -17,15 +17,29 @@ const resursy = document.getElementById("resursy");
 const ivents = document.getElementById("ivents");
 const perelom = document.getElementById("perelom");
 const traditsii = document.getElementById("traditsii");
-const innovatsii = document.getElementById("innovatsii");
+const econom_innovatsii = document.getElementById("econom_innovatsii");
+const voen_innovatsii = document.getElementById("voen_innovatsii");
+const social_innovatsii = document.getElementById("social_innovatsii");
 const zakon = document.getElementById("zakon");
 const limit = document.getElementById("limit");
 const skrit_perki = document.getElementById("skrit_perki");
 // const mercenaries = document.getElementById("mercenaries");
 
 
-innovatsii.addEventListener("click",() => {
-    img.src ="tables/innovatsii.png"
+econom_innovatsii.addEventListener("click",() => {
+    img.src ="tables/econom_innovatsii.png"
+    img.style.width = "100%"
+    img.style.height = "100%"
+});
+
+voen_innovatsii.addEventListener("click",() => {
+    img.src ="tables/voen_innovatsii.png"
+    img.style.width = "100%"
+    img.style.height = "100%"
+});
+
+social_innovatsii.addEventListener("click",() => {
+    img.src ="tables/social_innovatsii.png"
     img.style.width = "100%"
     img.style.height = "100%"
 });
